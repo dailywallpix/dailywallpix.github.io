@@ -237,6 +237,21 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:40px 0 48px;colo
 .qa{border-bottom:1px solid var(--line);padding:20px 0}
 .qa h3{font-size:19px;font-weight:800;margin-bottom:8px;font-family:'Sora',sans-serif}
 .qa p{color:var(--body);font-size:15.5px;line-height:1.65;margin:0}
+/* EXPLAINER REDESIGN (2026-11-01) — art hero + key facts */
+.ex-hero{position:relative;margin-top:68px;min-height:440px;display:flex;align-items:flex-end;overflow:hidden;background:#0B0714}
+.ex-hero>img{position:absolute;inset:0}
+.ex-hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,5,16,.40) 0%,rgba(7,5,16,.14) 42%,rgba(7,5,16,.90) 100%),linear-gradient(100deg,rgba(124,77,255,.30),rgba(255,92,168,.15) 55%,rgba(255,92,168,0))}
+.ex-hero-in{position:relative;z-index:2;width:100%;padding-top:118px;padding-bottom:36px}
+.ex-hero .crumb{color:rgba(255,255,255,.78)}
+.ex-hero .crumb b{color:#FF9CCB}
+.ex-hero h1{font-size:clamp(34px,5vw,54px);font-weight:800;letter-spacing:-1px;line-height:1.05;color:#fff;max-width:780px;margin-top:14px;text-shadow:0 4px 30px rgba(0,0,0,.45)}
+.ex-hero-sub{color:rgba(255,255,255,.90);font-size:17px;line-height:1.55;max-width:660px;margin-top:13px;font-weight:500;text-shadow:0 2px 14px rgba(0,0,0,.4)}
+.ex-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0 8px}
+.ex-fact{background:linear-gradient(160deg,rgba(124,77,255,.17),rgba(255,92,168,.08)),var(--panel);border:1px solid rgba(124,77,255,.38);border-radius:16px;padding:17px 19px;box-shadow:var(--shadow)}
+.ex-fact span{display:block;font-size:11px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase;color:#C9A8FF;margin-bottom:7px}
+.ex-fact b{display:block;font-size:16.5px;font-weight:800;color:var(--text);line-height:1.32;font-family:'Sora',sans-serif}
+.fact-box{border-left:4px solid var(--sky)}
+.rumor-box{border-left:4px solid var(--gold)}
 /* TABLET */
 @media(max-width:1020px){
  .phone{width:158px}
@@ -309,5 +324,11 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:40px 0 48px;colo
  .chips::-webkit-scrollbar{display:none}
  .chip{flex:none}
  .ex-row{grid-template-columns:1fr}
+ .ex-hero{margin-top:62px;min-height:350px}
+ .ex-hero-in{padding-top:88px;padding-bottom:27px}
+ .ex-hero-sub{font-size:15.5px}
+ .ex-facts{grid-template-columns:repeat(2,1fr);gap:10px;margin-top:22px}
+ .ex-fact{padding:14px 15px}
+ .ex-fact b{font-size:14.5px}
  .searchbar button,.search-big button{padding:12px 20px}
 }
