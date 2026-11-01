@@ -140,6 +140,8 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:40px 0 48px;colo
 .foot-links a{font-weight:600;position:relative}
 .foot-links a+a::before{content:"·";position:absolute;left:-13px;color:var(--muted);font-weight:400}
 .foot-links a:hover{color:var(--acc)}
+.foot-tg a{color:#229ED9;font-weight:700}
+.foot-tg a:hover{color:#54B9E8}
 .foot-copy{flex-basis:100%;font-size:13px}
 /* PAGE */
 .page{margin-top:68px;padding:46px 0 0}
@@ -171,6 +173,9 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:40px 0 48px;colo
 .big-dl{display:block;text-align:center;background:var(--grad);color:#fff;font-size:18.5px;font-weight:900;padding:19px;border-radius:16px;margin:8px 0 20px;box-shadow:0 14px 28px rgba(124,77,255,.32);transition:transform .2s,box-shadow .2s}
 .big-dl:hover{transform:translateY(-2px)}
 .big-dl:active{transform:scale(.985);box-shadow:0 8px 18px rgba(124,77,255,.28)}
+.tg-dl{display:block;text-align:center;background:#229ED9;color:#fff;font-size:16.5px;font-weight:800;padding:15px;border-radius:16px;margin:-8px 0 20px;box-shadow:0 12px 24px rgba(34,158,217,.30);transition:transform .2s,box-shadow .2s}
+.tg-dl:hover{transform:translateY(-2px)}
+.tg-dl:active{transform:scale(.985);box-shadow:0 8px 18px rgba(34,158,217,.28)}
 .steps{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px 24px;box-shadow:var(--shadow)}
 .steps h4{font-size:16px;font-weight:800;margin-bottom:10px;font-family:'Sora',sans-serif}
 .steps li{color:var(--muted);font-size:14.5px;line-height:1.55;margin-left:18px;margin-bottom:5px}
