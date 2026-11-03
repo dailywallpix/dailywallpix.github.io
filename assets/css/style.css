@@ -102,7 +102,7 @@ section{padding:76px 0 4px}
 .pack-info p{color:#E8E8E4;font-size:13.5px;font-weight:600;line-height:1.4}
 /* WALL GRID */
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.wall{position:relative;border-radius:16px;overflow:hidden;aspect-ratio:3/4;background:#141824;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s}
+.wall{content-visibility:auto;contain-intrinsic-size:auto 260px;position:relative;border-radius:16px;overflow:hidden;aspect-ratio:3/4;background:#141824;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s}
 .wall .hit{position:absolute;inset:0;display:block;z-index:1;-webkit-tap-highlight-color:transparent;outline:none}
 .wall .hit:active,.wall .hit:focus{background:transparent;outline:none}
 .wall img{transition:transform .5s;object-position:50% 25%}
